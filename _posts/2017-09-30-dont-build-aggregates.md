@@ -33,9 +33,9 @@ It's neither a "sum" or a "total or gross amount" of anything though. IMO there 
 In his talk ["What I've learned about DDD since the book"](https://qconlondon.com/london-2009/qconlondon.com/london-2009/presentation/What+I've+learned+about+DDD+since+the+book.html) Evans somehow amended the definition
 and stated that too much focus was put on how Aggregates are structured and accessed, while their main concern is about being a `Consistency Boundary` and a conceptual whole.
 
-This is the most widely used definition nowadays by the major DDD sages, though Martin Fowler still focuses the [definition](https://martinfowler.com/bliki/DDD_Aggregate.html) on the structural aspect.
+This is the most widely used definition nowadays by the major DDD sages (e.g. [Vaughn Vernon](https://vaughnvernon.co/?p=879)), though Martin Fowler still focuses the [definition](https://martinfowler.com/bliki/DDD_Aggregate.html) on his bliki on the structural aspect.
 
-That's the point where the terminology got disconnected from the intended usage. And this usage is emphasized even more when building an event-sourced system, because especially there you shouldn't build a structural model at all, but a behavorial model that reflects your business rules and transactions.
+That's the point where the terminology got disconnected from the intended usage. And this usage is emphasized even more so when building an event-sourced system, because especially there you shouldn't build a structural model at all, but a behavorial model that reflects your business rules and transactions.
 A very good blog post that shows that shift is https://codeopinion.com/clean-up-your-domain-model-with-event-sourcing/
 The event-sourced model only contains properties that are required to enforce its business rules.
 
