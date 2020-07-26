@@ -4,7 +4,6 @@ title:  "Don't Build Aggregates"
 categories: ddd
 draft: true
 ---
-# Don't Build Aggregates
 
 The Domain Driven Design Community is obsessed about terminology, being precise with language, and yet we fail to name the most fundamental building blocks in a non-misleading way.
 This is probably a very hot take and a bit of an overstatement, but bear with me. I'll try to explain.
